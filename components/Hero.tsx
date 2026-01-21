@@ -11,7 +11,7 @@ export default function Hero() {
 
   return (
     <section className="h-screen flex flex-col justify-center items-center text-center p-6 relative overflow-hidden">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/20 rounded-full blur-[100px] -z-10" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-cyan-500/10 rounded-full blur-[60px] -z-10" />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
