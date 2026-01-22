@@ -56,3 +56,116 @@ INSTRUÇÕES DE COMPORTAMENTO DA IA:
 4. **Formatação:** Use negrito (**texto**) nas obras, faculdade e tecnologias.
 5. **Contexto:** Estamos em 2026, Gabriel já é graduado.
 `;
+
+export const projectsData = [
+  {
+    id: 1,
+    title: "CineVerse",
+    description: {
+      pt: "Plataforma de recomendação de filmes clone da Netflix, consumindo a API do TMDB com React e Inteligência Artificial.",
+      en: "Netflix clone movie recommendation platform, consuming TMDB API with React and Artificial Intelligence."
+    },
+    tech: ["React.js", "TailwindCSS", "TMDB API", "Gemini AI"],
+    githubLink: "https://github.com/ghsiqueira/cineverse",
+    liveLink: "https://cineverse-weld.vercel.app",
+    image: "/projects/cineverse.png",
+    status: "completed" 
+  },
+  {
+    id: 2,
+    title: "My Dev Folio",
+    description: {
+      pt: "Portfólio interativo com Chatbot de IA, Analytics em tempo real e internacionalização.",
+      en: "Interactive portfolio with AI Chatbot, real-time Analytics, and internationalization."
+    },
+    tech: ["Next.js 15", "WakaTime", "Framer Motion", "Vercel"],
+    githubLink: "https://github.com/ghsiqueira/my-dev-folio",
+    liveLink: "https://",
+    image: "/projects/portfolio.png",
+    status: "completed"
+  },
+  {
+    id: 3,
+    title: "DevTracker",
+    description: {
+      pt: "Sistema de gestão de tarefas e projetos com autenticação e banco de dados relacional.",
+      en: "Task and project management system with authentication and relational database."
+    },
+    tech: ["Python", "Django", "SQLite", "Bootstrap"],
+    githubLink: "https://github.com/ghsiqueira/devtracker",
+    liveLink: "https://ghsiqueira.pythonanywhere.com",
+    image: "/projects/devtracker.png", 
+    status: "completed"
+  },
+
+  {
+    id: 4,
+    title: "Voyager Booking",
+    description: {
+      pt: "Sistema de reservas e aluguel de temporada (Clone Airbnb).",
+      en: "Booking and vacation rental system (Airbnb Clone)."
+    },
+    tech: ["PHP", "Laravel", "MySQL", "Livewire"],
+    status: "planned"
+  },
+  {
+    id: 5,
+    title: "PetSpace Ecosystem",
+    description: {
+      pt: "Marketplace completo para Pets (API Rest + Frontend + App).",
+      en: "Complete Pet Marketplace (Rest API + Frontend + App)."
+    },
+    tech: ["Laravel API", "React.js", "Redis", "JWT"],
+    status: "planned"
+  },
+  {
+    id: 6,
+    title: "Reader Cloud",
+    description: {
+      pt: "Microserviço para sincronização de leitura em nuvem.",
+      en: "Microservice for cloud reading synchronization."
+    },
+    tech: ["Python", "Flask", "MongoDB"],
+    status: "planned"
+  },
+  {
+    id: 7,
+    title: "Family Reader App",
+    description: {
+      pt: "App mobile offline-first para leitura e gestão de livros.",
+      en: "Offline-first mobile app for reading and book management."
+    },
+    tech: ["React Native", "Expo", "Google Books API"],
+    status: "planned"
+  },
+  {
+    id: 8,
+    title: "Legacy of the Runes",
+    description: {
+      pt: "Engine de RPG Top-down com combate em tempo real.",
+      en: "Top-down RPG Engine with real-time combat."
+    },
+    tech: ["Unity", "C#", "Game Design"],
+    status: "planned"
+  },
+  {
+    id: 9,
+    title: "Mystic Realms",
+    description: {
+      pt: "MMORPG de navegador com Websockets e Multiplayer.",
+      en: "Browser MMORPG with Websockets and Multiplayer."
+    },
+    tech: ["JavaScript", "Phaser", "Socket.io", "Node.js"],
+    status: "planned"
+  },
+  {
+    id: 10,
+    title: "Nexus Finance",
+    description: {
+      pt: "Core bancário de alta performance com transações atômicas.",
+      en: "High-performance banking core with atomic transactions."
+    },
+    tech: [".NET 8", "C#", "PostgreSQL", "Clean Arch"],
+    status: "planned"
+  }
+];
