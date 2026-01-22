@@ -6,6 +6,7 @@ import Skills from "../components/Skills";
 import Footer from "../components/Footer";
 import LanguageSwitch from "../components/LanguageSwitch";
 import LevelUp from "../components/LevelUp";
+import ContactForm from "../components/ContactForm";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Skills />    
       <Projects />
       <Timeline />
+      <ContactForm />
       <Footer />
     </main>
   );

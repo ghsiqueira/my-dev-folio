@@ -26,7 +26,7 @@ export default function About() {
             <img 
               src="https://github.com/ghsiqueira.png" 
               alt="Gabriel Henrique" 
-              className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl border-4 border-gray-800 shadow-2xl grayscale hover:grayscale-0 transition-all duration-500"
+              className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl border-4 border-gray-800 shadow-2xl md:grayscale md:hover:grayscale-0 transition-all duration-500"
             />
           </motion.div>
 

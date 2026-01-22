@@ -10,7 +10,7 @@ export const staticContent = {
       title: "About Me",
       description: "I'm a developer driven by the curiosity to understand the logic behind everything—whether it's optimizing a complex SQL query or diving into the world-building of a High Fantasy novel.",
       personal: "When I'm not coding automations, you'll likely find me immersed in tactical RPG campaigns, exploring deep game lore, or planning the itinerary for my next travel adventure.",
-      roadmapTitle: "Next Steps",
+      roadmapTitle: "Next Steps (2026)",
       roadmapList: [
         "Mastering Modern PHP (Laravel)",
         "Exploring Game Dev (Unity/C#)",
@@ -22,6 +22,15 @@ export const staticContent = {
       projects: "My Projects",
       timeline: "My Journey",
       skills: "Tech Stack",
+    },
+    contactForm: {
+      title: "Get in Touch",
+      name: "Name",
+      email: "Email",
+      message: "Message",
+      send: "Send Message",
+      success: "Message sent successfully!",
+      error: "Something went wrong. Try again."
     },
     footer: {
       title: "Ready to collaborate?",
@@ -39,9 +48,9 @@ export const staticContent = {
     },
     about: {
       title: "Sobre Mim",
-      description: "Sou um desenvolvedor movido pela curiosidade de entender a lógica por trás de tudo — seja na arquitetura de um software complexo ou na construção de mundo de um livro de Alta Fantasia.", 
+      description: "Sou um desenvolvedor movido pela curiosidade de entender a lógica por trás de tudo — seja na arquitetura de um software complexo ou na construção de mundo de um livro de Alta Fantasia.",
       personal: "Quando não estou codando, você provavelmente me encontrará imerso em campanhas de RPG tático, devorando sagas medievais ou desenhando o roteiro da minha próxima viagem.",
-      roadmapTitle: "Próximos Passos",
+      roadmapTitle: "Próximos Passos (2026)",
       roadmapList: [
         "Dominar PHP Moderno (Laravel)",
         "Explorar Game Dev (Unity/C#)",
@@ -53,6 +62,15 @@ export const staticContent = {
       projects: "Meus Projetos",
       timeline: "Minha Jornada",
       skills: "Minhas Ferramentas",
+    },
+    contactForm: {
+      title: "Entre em Contato",
+      name: "Nome",
+      email: "E-mail",
+      message: "Mensagem",
+      send: "Enviar Mensagem",
+      success: "Mensagem enviada com sucesso!",
+      error: "Algo deu errado. Tente novamente."
     },
     footer: {
       title: "Vamos conversar?",
