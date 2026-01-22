@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ My Dev Folio
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Gemini AI](https://img.shields.io/badge/Gemini-AI-8E75B2?style=for-the-badge&logo=google)
 
-First, run the development server:
+Um portfólio de desenvolvedor interativo e de alta performance construído com as mais recentes tecnologias web. Este projeto vai além de um site estático ao integrar **Inteligência Artificial**, **Analytics em Tempo Real** e **Internacionalização**.
 
+🔗 **Demo ao Vivo:** [Confira aqui!](https://my-dev-folio.vercel.app/)
+
+## ✨ Recursos Principais
+
+- **🤖 Chatbot Assistente com IA:** Um agente conversacional alimentado pela **API Gemini** do Google. Atua como um assistente virtual, respondendo perguntas sobre minha carreira, habilidades e projetos usando um contexto de persona personalizado.
+- **📊 Analytics em Tempo Real:** Integrado com a **API WakaTime** para exibir estatísticas de código ao vivo (horas codadas nos últimos 7 dias, principais linguagens) diretamente no dashboard.
+- **🌍 Internacionalização (i18n):** Suporte completo para Português (PT-BR) e Inglês (EN), com detecção automática de idioma e troca de contexto.
+- **🚧 Roadmap Dinâmico de Projetos:** Uma "Zona de Construção" visual para projetos planejados, distinguindo entre trabalhos concluídos (links Live/GitHub) e conceitos futuros.
+- **🎨 UI/UX Moderna:** Construído com **TailwindCSS** para estilização e **Framer Motion** para animações suaves e complexas.
+- **⚡ Next.js 15:** Utilizando Server Components e App Router para máxima performance e SEO.
+
+## 🛠️ Stack Tecnológica
+
+- **Framework:** Next.js 15 (App Router)
+- **Linguagem:** TypeScript
+- **Estilização:** TailwindCSS
+- **Animações:** Framer Motion
+- **Integração IA:** Google Generative AI SDK (Gemini Flash)
+- **Busca de Dados:** WakaTime API
+- **Ícones:** Lucide React
+- **Markdown:** React Markdown (para respostas ricas no chat)
+- **Deploy:** Vercel
+
+## 🚀 Começando
+
+Siga estes passos para rodar o projeto localmente:
+
+### 1. Clone o repositório
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/ghsiqueira/my-dev-folio.git
+cd my-dev-folio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Instale as dependências
+```bash
+npm install
+# ou
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Variáveis de Ambiente
+Crie um arquivo `.env.local` no diretório raiz e adicione suas chaves de API:
+```
+# Google Gemini AI (Para o Chatbot)
+NEXT_PUBLIC_GEMINI_API_KEY=sua_chave_google_ai_aqui
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# WakaTime (Para Estatísticas de Código)
+WAKATIME_API_KEY=sua_chave_secreta_wakatime_aqui
+```
 
-## Learn More
+### 4. Execute o servidor de desenvolvimento
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Abra http://localhost:3000 no seu navegador para ver o resultado.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Estrutura do Projeto
+```
+├── app/                # Next.js App Router
+│   ├── api/            # Rotas de API Server-side (Chat & Stats)
+│   └── page.tsx        # Ponto de entrada principal
+├── components/         # Componentes React Reutilizáveis (ChatBot, Analytics, etc.)
+├── context/            # React Context (Language/Theme)
+├── lib/                # Utilitários e Dados (O "Cérebro" da IA)
+└── public/             # Assets estáticos (imagens)
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contribuindo
+Contribuições, issues e solicitações de recursos são bem-vindas! Sinta-se à vontade para verificar a página de issues.
 
-## Deploy on Vercel
+## 📝 Licença
+Este projeto está licenciado sob a licença MIT.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feito com 💜 e ☕ por Gabriel Siqueira.
