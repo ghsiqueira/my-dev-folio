@@ -4,6 +4,7 @@ import Timeline from "../components/Timeline";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills"; 
 import Analytics from "../components/Analytics";
+import ServiceStatus from "../components/ServiceStatus";
 import Footer from "../components/Footer";
 import LanguageSwitch from "../components/LanguageSwitch";
 import LevelUp from "../components/LevelUp";
@@ -19,6 +20,7 @@ export default function Home() {
       <Skills />    
       <Analytics />
       <Projects />
+      <ServiceStatus />
       <Timeline />
       <ContactForm />
       <Footer />
