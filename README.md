@@ -1,14 +1,18 @@
+<div align="center">
+
 # ⚡ My Dev Folio
 
-![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![Gemini AI](https://img.shields.io/badge/Gemini-AI-8E75B2?style=for-the-badge&logo=google)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Gemini-AI-8E75B2?style=for-the-badge&logo=google&logoColor=white)
 ![Status](https://img.shields.io/badge/STATUS-LIVE-brightgreen?style=for-the-badge)
 
 Um portfólio de desenvolvedor interativo e de alta performance construído com as mais recentes tecnologias web. Este projeto vai além de um site estático ao integrar **Inteligência Artificial**, **Analytics em Tempo Real** e **Internacionalização**.
 
-🔗 **Demo ao Vivo:** [Confira aqui!](https://my-dev-folio.vercel.app/)
+[🔗 **Demo ao Vivo: Confira aqui!**](https://my-dev-folio.vercel.app/)
+
+</div>
 
 ## ✨ Recursos Principais
 
@@ -84,4 +88,6 @@ Este projeto está licenciado sob a licença MIT.
 
 ---
 
-Feito com 💜 e ☕ por Gabriel Siqueira.
+<div align="center">
+  Feito com 💜 e ☕ por Gabriel Siqueira.
+</div>  
