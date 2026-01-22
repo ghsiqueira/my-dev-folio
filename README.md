@@ -1,5 +1,6 @@
 # ⚡ My Dev Folio
 
+![Status](https://img.shields.io/badge/STATUS-LIVE-brightgreen?style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
