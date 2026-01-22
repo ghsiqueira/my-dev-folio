@@ -80,7 +80,7 @@ export const projectsData = [
     },
     tech: ["Next.js 15", "WakaTime", "Framer Motion", "Vercel"],
     githubLink: "https://github.com/ghsiqueira/my-dev-folio",
-    liveLink: "https://",
+    liveLink: "https://my-dev-folio.vercel.app/",
     image: "/projects/portfolio.png",
     status: "completed"
   },
